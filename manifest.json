@@ -1,0 +1,27 @@
+{
+  "name": "纺大教务系统自动重连插件",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "在不刷新页面的情况下重新登录教务系统",
+  "browser_action": {
+    "default_popup": "popup/popup.html"
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*.wtu.edu.cn/*",
+        "https://*.wtu.edu.cn/*"
+      ],
+      "js": [
+        "content-scripts/content.js"
+      ]
+    }
+  ],
+  "host_permissions": [
+    "*://*.ehall.wtu.edu.cn",
+    "https://www.wtu.edu.cn"
+  ]
+}
