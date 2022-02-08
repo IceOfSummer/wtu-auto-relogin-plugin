@@ -1,0 +1,63 @@
+/*Toast外层*/
+.wtu-relogin-plugin-toast {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.wtu-relogin-plugin-toast-block {
+  width: 400px;
+  height: 250px;
+  padding: 20px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background-color: white;
+}
+.wtu-relogin-plugin-toast-title{
+  font-size: 30px;
+  color: #E6A23C;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #E4E7ED;
+}
+.wtu-relogin-plugin-toast-content{
+  margin-top: 10px;
+  font-size: 17px;
+  color: #606266;
+}
+.wtu-relogin-plugin-btn{
+  border: 1px solid #E4E7ED;
+  padding: 10px 40px;
+  margin: 0 5px;
+  border-radius: 20px;
+  transition: background-color .4s;
+  cursor: pointer
+}
+.wtu-relogin-plugin-btn:hover{
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.wtu-relogin-plugin-btn-confirm{
+  border: 1px solid #E4E7ED;
+  padding: 10px 40px;
+  margin: 0 5px;
+  border-radius: 20px;
+  background-color: rgb(64, 158, 255);
+  transition: background-color .4s;
+  color: white;
+  cursor: pointer
+}
+.wtu-relogin-plugin-btn-confirm:hover{
+  background-color: rgb(64, 158, 255, 0.7);
+}
+.wtu-relogin-plugin-toast-btn-area{
+  display: flex;
+  justify-content: flex-end;
+}

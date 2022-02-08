@@ -16,7 +16,11 @@
         "https://*.wtu.edu.cn/*"
       ],
       "js": [
+        "lib/jquery.js",
         "content-scripts/content.js"
+      ],
+      "css": [
+        "content-css/styles.css"
       ]
     }
   ],
