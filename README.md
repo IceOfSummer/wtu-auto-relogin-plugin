@@ -2,6 +2,8 @@
 
 武汉纺织大学教务系统自动重连插件
 
+**该仓库已经存档，请查看新版本[戳我](https://github.com/HuPeng333/wtu-optimization-plugin/tree/master)**
+
 ## 用途
 这个插件做出来主要是为了选课用的。毕竟一选课，教务系统就会炸，然后就会无限重复登录...
 
